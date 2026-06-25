@@ -16,7 +16,7 @@
         header {
             background-color: #0077b6;
             color: white;
-            padding: 20px text-align;
+            padding: 20px;
             text-align: center;
         }
         nav {
@@ -46,6 +46,14 @@
             border-bottom: 2px solid #0096c7;
             padding-bottom: 5px;
         }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        iframe {
+            max-width: 100%;
+            border-radius: 8px;
+        }
         .footer {
             text-align: center;
             padding: 20px;
@@ -64,6 +72,7 @@
 
     <nav>
         <a href="#historia">História</a>
+        <a href="#video">Vídeo Informativo</a>
         <a href="#areas">Áreas de Atuação</a>
         <a href="#importancia">Importância</a>
     </nav>
@@ -73,6 +82,14 @@
         <section id="historia">
             <h2>História da Medicina</h2>
             <p>A medicina evoluiu de práticas ritualísticas e baseadas em ervas na antiguidade para uma ciência altamente tecnológica. Desde Hipócrates, considerado o "Pai da Medicina", o foco central sempre foi aliviar o sofrimento humano e prolongar a vida com qualidade.</p>
+        </section>
+
+        <section id="video">
+            <h2>Vídeo Informativo</h2>
+            <p>Assista abaixo a um conteúdo selecionado sobre o universo da medicina:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G_6T6xk8Oho?si=0S1EbypVkisYuTVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
 
         <section id="areas">
